@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console, Vm} from "forge-std/Test.sol";
-import {BatchEvents} from "../src/BatchEvents.sol";
+import {BatchEvents} from "../src/05j_BatchEvents.sol";
 
 contract BatchEventsTest is Test {
     BatchEvents public c;

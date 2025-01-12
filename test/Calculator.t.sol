@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Calculator} from "../src/Calculator.sol";
+import {Calculator} from "../src/01b_Calculator.sol";
 
 contract CalculatorTest is Test {
     Calculator public c;

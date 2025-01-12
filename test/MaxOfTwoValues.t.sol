@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {MaxOfTwoValues} from "../src/MaxOfTwoValues.sol";
+import {MaxOfTwoValues} from "../src/01d_MaxOfTwoValues.sol";
 
 contract MaxOfTwoValuesTest is Test {
     MaxOfTwoValues public c;

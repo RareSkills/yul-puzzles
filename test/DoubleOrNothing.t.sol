@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {DoubleOrNothing} from "../src/DoubleOrNothing.sol";
+import {DoubleOrNothing} from "../src/01c_DoubleOrNothing.sol";
 
 contract DoubleOrNothingTest is Test {
     DoubleOrNothing public c;

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {LengthOfDynamicArray} from "../src/LengthOfDynamicArray.sol";
+import {LengthOfDynamicArray} from "../src/03a_LengthOfDynamicArray.sol";
 
 contract LengthOfDynamicArrayTest is Test {
     LengthOfDynamicArray public c;

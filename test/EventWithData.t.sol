@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console, Vm} from "forge-std/Test.sol";
-import {EventWithData} from "../src/EventWithData.sol";
+import {EventWithData} from "../src/05b_EventWithData.sol";
 
 contract EventWithDataTest is Test {
     EventWithData public c;

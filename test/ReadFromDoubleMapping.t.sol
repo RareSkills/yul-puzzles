@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {ReadFromDoubleMapping} from "../src/ReadFromDoubleMapping.sol";
+import {ReadFromDoubleMapping} from "../src/04k_ReadFromDoubleMapping.sol";
 
 contract ReadFromDoubleMappingTest is Test {
     ReadFromDoubleMapping public c;

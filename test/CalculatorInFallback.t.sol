@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {CalculatorInFallback} from "../src/CalculatorInFallback.sol";
+import {CalculatorInFallback} from "../src/06k_CalculatorInFallback.sol";
 
 contract CalculatorInFallbackTest is Test {
     CalculatorInFallback public c;

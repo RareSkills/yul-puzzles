@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {WriteToDoubleMapping} from "../src/WriteToDoubleMapping.sol";
+import {WriteToDoubleMapping} from "../src/04l_WriteToDoubleMapping.sol";
 
 contract WriteToDoubleMappingTest is Test {
     WriteToDoubleMapping public c;

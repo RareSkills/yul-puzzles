@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {WriteToPackedDynamicArray64} from "../src/WriteToPackedDynamicArray64.sol";
+import {WriteToPackedDynamicArray64} from "../src/04s_WriteToPackedDynamicArray64.sol";
 
 contract WriteToPackedDynamicArray64Test is Test {
     WriteToPackedDynamicArray64 public c;
