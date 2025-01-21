@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Tenary} from "../src/04c_Tenary.sol";
+import {Tenary} from "../src/Tenary.sol";
 
 contract TenaryTest is Test {
     Tenary public c;

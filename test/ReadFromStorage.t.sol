@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {ReadFromStorage} from "../src/04a_ReadFromStorage.sol";
+import {ReadFromStorage} from "../src/ReadFromStorage.sol";
 
 contract ReadFromStorageTest is Test {
     ReadFromStorage public c;

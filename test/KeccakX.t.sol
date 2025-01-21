@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {keccakX} from "../src/02b_keccakX.sol";
+import {keccakX} from "../src/keccakX.sol";
 
 contract keccakXTest is Test {
     keccakX public c;

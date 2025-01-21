@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {RevertWithPanic} from "../src/00f_RevertWithPanic.sol";
+import {RevertWithPanic} from "../src/RevertWithPanic.sol";
 
 contract RevertWithPanicTest is Test {
     RevertWithPanic public c;

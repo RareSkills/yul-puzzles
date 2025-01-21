@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {WriteTwoDynamicArraysToStorage} from "../src/04n_WriteTwoDynamicArraysToStorage.sol";
+import {WriteTwoDynamicArraysToStorage} from "../src/WriteTwoDynamicArraysToStorage.sol";
 
 contract WriteTwoDynamicArraysToStorageTest is Test {
     WriteTwoDynamicArraysToStorage public c;

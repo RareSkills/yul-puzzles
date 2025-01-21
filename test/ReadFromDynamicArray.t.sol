@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {ReadFromDynamicArray} from "../src/04e_ReadFromDynamicArray.sol";
+import {ReadFromDynamicArray} from "../src/ReadFromDynamicArray.sol";
 
 contract ReadFromDynamicArrayTest is Test {
     ReadFromDynamicArray public c;

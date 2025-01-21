@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {RevertWithSelector} from "../src/00b_RevertWithSelector.sol";
+import {RevertWithSelector} from "../src/RevertWithSelector.sol";
 
 contract RevertWithSelectorTest is Test {
     RevertWithSelector public c;

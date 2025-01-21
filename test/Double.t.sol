@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Double} from "../src/01a_Double.sol";
+import {Double} from "../src/Double.sol";
 
 contract DoubleTest is Test {
     Double public c;

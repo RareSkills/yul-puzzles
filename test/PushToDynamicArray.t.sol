@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {PushToDynamicArray} from "../src/04i_PushToDynamicArray.sol";
+import {PushToDynamicArray} from "../src/PushToDynamicArray.sol";
 
 contract PushToDynamicArrayTest is Test {
     PushToDynamicArray public c;

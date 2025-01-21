@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {WriteToStorage} from "../src/04b_WriteToStorage.sol";
+import {WriteToStorage} from "../src/WriteToStorage.sol";
 
 contract WriteToStorageTest is Test {
     WriteToStorage public c;

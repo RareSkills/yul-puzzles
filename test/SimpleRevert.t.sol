@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {SimpleRevert} from "../src/00a_SimpleRevert.sol";
+import {SimpleRevert} from "../src/SimpleRevert.sol";
 
 contract SimpleRevertTest is Test {
     SimpleRevert public c;

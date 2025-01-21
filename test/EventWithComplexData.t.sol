@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console, Vm} from "forge-std/Test.sol";
-import {EventWithComplexData} from "../src/05i_EventWithComplexData.sol";
+import {EventWithComplexData} from "../src/EventWithComplexData.sol";
 
 contract EventWithComplexDataTest is Test {
     EventWithComplexData public c;

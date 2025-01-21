@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {ReadFromFixedArray} from "../src/04c2_ReadFromFixedArray.sol";
+import {ReadFromFixedArray} from "../src/ReadFromFixedArray.sol";
 
 contract ReadFromFixedArrayTest is Test {
     ReadFromFixedArray public c;

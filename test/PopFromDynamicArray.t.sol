@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {PopFromDynamicArray} from "../src/04j_PopFromDynamicArray.sol";
+import {PopFromDynamicArray} from "../src/PopFromDynamicArray.sol";
 
 contract PopFromDynamicArrayTest is Test {
     PopFromDynamicArray public c;

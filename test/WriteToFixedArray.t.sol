@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {WriteToFixedArray} from "../src/04d_WriteToFixedArray.sol";
+import {WriteToFixedArray} from "../src/WriteToFixedArray.sol";
 
 contract WriteToFixedArrayTest is Test {
     WriteToFixedArray public c;

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {MaxOfArray} from "../src/03b_MaxOfArray.sol";
+import {MaxOfArray} from "../src/MaxOfArray.sol";
 
 contract MaxOfArrayTest is Test {
     MaxOfArray public c;

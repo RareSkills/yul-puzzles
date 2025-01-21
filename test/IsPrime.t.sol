@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {IsPrime} from "../src/01e_IsPrime.sol";
+import {IsPrime} from "../src/IsPrime.sol";
 
 contract IsPrimeTest is Test {
     IsPrime public c;
