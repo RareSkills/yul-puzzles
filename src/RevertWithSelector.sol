@@ -12,6 +12,10 @@ contract RevertWithSelector {
             // `revert RevertData()`
             // but in assembly
             // hint: https://www.rareskills.io/post/assembly-revert
+
+            // a3b7e096
+            mstore(0x00, 0xa3b7e096)
+            revert(0x1C, 0x04)
         }
     }
 }

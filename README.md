@@ -17,9 +17,9 @@ Go through the puzzles sequentially
 
 
 0.	[ReturnBool](https://github.com/RareSkills/yul-puzzles/blob/main/src/ReturnBool.sol) (_solved_)
-1.	[SimpleRevert](https://github.com/RareSkills/yul-puzzles/blob/main/src/SimpleRevert.sol)
-2.	[RevertWithSelector](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelector.sol)
-3.	[Return42](https://github.com/RareSkills/yul-puzzles/blob/main/src/Return42.sol) 
+1.	[SimpleRevert](https://github.com/RareSkills/yul-puzzles/blob/main/src/SimpleRevert.sol) (_solved_)
+2.	[RevertWithSelector](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelector.sol) (_solved_)
+3.	[Return42](https://github.com/RareSkills/yul-puzzles/blob/main/src/Return42.sol) (_solved_)
 4.	[RevertWithError](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithError.sol) 
 5.	[RevertWithSelectorPlusArgs](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelectorPlusArgs.sol) 
 6.	[RevertWithPanic](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithPanic.sol) 

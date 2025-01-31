@@ -13,6 +13,9 @@ contract Return42 {
           // hint: you need to return 32 bytes of size
           // even though the returned value is 42
           // https://www.rareskills.io/post/assembly-revert
+
+          mstore(0x00, 0x2A)
+          return(0x00, 0x20)
       }
   }
 }
