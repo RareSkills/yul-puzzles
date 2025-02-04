@@ -87,3 +87,7 @@ Go through the puzzles sequentially
 68. [Approve](https://github.com/RareSkills/yul-puzzles/blob/main/src/Approve.sol)
 69. [TransferFrom](https://github.com/RareSkills/yul-puzzles/blob/main/src/TransferFrom.sol)
 70. [BalanceOf](https://github.com/RareSkills/yul-puzzles/blob/main/src/BalanceOf.sol)
+
+## Solutions
+
+If you are stuck or need some help you can find the solutions [here](https://github.com/m4k2/yul-puzzles-solved).
