@@ -13,6 +13,8 @@ contract Double {
           // hint: x can be directly accessed in assembly
 
           // see here for how to multiply in YUL: https://docs.soliditylang.org/en/latest/yul.html#evm-dialect
+          mstore(0x00, mul(x, 2))
+          return (0x00, 0x20)
       }
   }
 }
