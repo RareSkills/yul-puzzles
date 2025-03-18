@@ -16,13 +16,13 @@ Now repeat this with the other puzzles.
 Go through the puzzles sequentially 
 
 
-0.	[ReturnBool](https://github.com/RareSkills/yul-puzzles/blob/main/src/ReturnBool.sol) (_solved_)
-1.	[SimpleRevert](https://github.com/RareSkills/yul-puzzles/blob/main/src/SimpleRevert.sol) (_solved_)
-2.	[RevertWithSelector](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelector.sol) (_solved_)
-3.	[Return42](https://github.com/RareSkills/yul-puzzles/blob/main/src/Return42.sol) (_solved_)
-4.	[RevertWithError](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithError.sol) (_solved_)
-5.	[RevertWithSelectorPlusArgs](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelectorPlusArgs.sol) (_solved_)
-6.	[RevertWithPanic](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithPanic.sol) 
+0.	(_solved_) [ReturnBool](https://github.com/RareSkills/yul-puzzles/blob/main/src/ReturnBool.sol)
+1.	(_solved_) [SimpleRevert](https://github.com/RareSkills/yul-puzzles/blob/main/src/SimpleRevert.sol)
+2.	(_solved_) [RevertWithSelector](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelector.sol)
+3.	(_solved_) [Return42](https://github.com/RareSkills/yul-puzzles/blob/main/src/Return42.sol)
+4.	(_solved_) [RevertWithError](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithError.sol)
+5.	(_solved_) [RevertWithSelectorPlusArgs](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithSelectorPlusArgs.sol)
+6.	(_solved_) [RevertWithPanic](https://github.com/RareSkills/yul-puzzles/blob/main/src/RevertWithPanic.sol)
 7.	[Double](https://github.com/RareSkills/yul-puzzles/blob/main/src/Double.sol) 
 8.	[Calculator](https://github.com/RareSkills/yul-puzzles/blob/main/src/Calculator.sol) 
 9.	[DoubleOrNothing](https://github.com/RareSkills/yul-puzzles/blob/main/src/DoubleOrNothing.sol) 
