@@ -3,7 +3,7 @@
 ## How to play
 Open `src/ReturnBool.sol` and `test/ReturnBool.t.sol`. Your goal is to write assembly code in each puzzle that makes the test pass. You may only write assembly code.
 
-Run the test with
+Run the test with 
 
 ```shell
 make test file=ReturnBool
