@@ -16,4 +16,4 @@ new:
 push:
 	git add . && git commit -m "push" && git push
 	gh pr create --title new --body new
-	gh pr merge new --delete-branch
+	gh pr merge new --delete-branch --merge
