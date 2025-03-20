@@ -3,7 +3,7 @@
 ## How to play
 Open `src/ReturnBool.sol` and `test/ReturnBool.t.sol`. Your goal is to write assembly code in each puzzle that makes the test pass. You may only write assembly code.
 
-Run the test with
+Run the test with 
 
 ```shell
 make test file=ReturnBool
@@ -30,8 +30,8 @@ Go through the puzzles sequentially
 7.	(_solved_) [Double](https://github.com/RareSkills/yul-puzzles/blob/main/src/Double.sol) 
 8.	(_solved_) [Calculator](https://github.com/RareSkills/yul-puzzles/blob/main/src/Calculator.sol) 
 9.	(_solved_) [DoubleOrNothing](https://github.com/RareSkills/yul-puzzles/blob/main/src/DoubleOrNothing.sol) 
-10.	[MaxOfTwoValues](https://github.com/RareSkills/yul-puzzles/blob/main/src/MaxOfTwoValues.sol) 
-11.	[IsPrime](https://github.com/RareSkills/yul-puzzles/blob/main/src/IsPrime.sol) 
+10.	(_solved_) [MaxOfTwoValues](https://github.com/RareSkills/yul-puzzles/blob/main/src/MaxOfTwoValues.sol) 
+11.	(_solved_) [IsPrime](https://github.com/RareSkills/yul-puzzles/blob/main/src/IsPrime.sol) 
 12.	[CalldataLength](https://github.com/RareSkills/yul-puzzles/blob/main/src/CalldataLength.sol) 
 13.	[KeccakX](https://github.com/RareSkills/yul-puzzles/blob/main/src/KeccakX.sol) 
 14.	[KeccakFirstCalldata](https://github.com/RareSkills/yul-puzzles/blob/main/src/KeccakFirstCalldata.sol) 
