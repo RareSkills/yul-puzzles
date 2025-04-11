@@ -7,6 +7,8 @@ contract LengthOfDynamicArray {
             // your code here
             // return the length of array `x`
             // Hint: https://www.rareskills.io/post/solidity-dynamic
+            mstore(0x00, mload(x))
+            return(0x00, 0x20)
         }
     }
 }
