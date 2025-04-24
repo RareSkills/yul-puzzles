@@ -9,6 +9,7 @@ contract WriteToStorage {
             // your code here
             // store the value `x` in the storage variable `writeHere`
             // Hint: use sstore opcode
+            sstore(writeHere.slot, x)
         }
     }
 }
