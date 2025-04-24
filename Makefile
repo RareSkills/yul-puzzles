@@ -14,6 +14,6 @@ new:
 
 # Push PR
 push:
-	git add . && git commit -m "push" && git push
+	git add . && git commit -m "push" && git push --set-upstream origin new
 	gh pr create --title new --body new
 	gh pr merge new --delete-branch --merge
