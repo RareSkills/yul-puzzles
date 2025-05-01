@@ -10,6 +10,15 @@ contract Tenary {
             // store `10` in the storage variable `result` if a > b,
             // else if b > c, store `20`,
             // else, store `30`
+            if gt(a, b) {
+                sstore(result.slot, 10)
+                return(0x00, 0x00)
+            }
+            if gt(b, c) {
+                sstore(result.slot, 20)
+                return(0x00, 0x00)
+            }
+            sstore(result.slot, 30)
         }
     }
 }

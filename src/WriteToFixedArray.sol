@@ -9,6 +9,14 @@ contract WriteToFixedArray {
             // your code here
             // store the values in the fixed array `x` in the storage variable `writeHere`
             // Hint: https://www.rareskills.io/post/solidity-dynamic
+            let i := 0
+            for {} lt(i, 5) { i := add(i, 1) } 
+            {
+                sstore(
+                    add(writeHere.slot, i), 
+                    mload(add(x, mul(i, 0x20)))
+                ) 
+            }
         }
     }
 
