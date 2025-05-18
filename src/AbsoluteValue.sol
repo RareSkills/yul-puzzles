@@ -5,11 +5,11 @@ contract AbsoluteValue{
 
   function main(int256 x) external pure returns (uint256) {
       assembly {
-          // your code here
-          // return the absolute value of x
-          // hint: use signed comparisons
-          // hint: https://www.rareskills.io/post/signed-int-solidity
-
+          if slt(x,0){
+            x := sub(0,x)
+          }
+          mstore(0x00,x)
+          return(0x00,0x20)
       }
   }
 }
