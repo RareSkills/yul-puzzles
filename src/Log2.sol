@@ -18,6 +18,10 @@ contract Log2 {
             //   bin(6) = 0110, so log2(6) = 2
             //   bin(7) = 0111, so log2(6) = 2
             //   bin(8) = 1000, so log2(6) = 3
+            if iszero(x){
+                revert(0,0)
+            }
+           
   
         }
     }

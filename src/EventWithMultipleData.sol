@@ -13,6 +13,13 @@ contract EventWithMultipleData {
             // use `log1` to emit the event with one topic (the event signature hash) and the data payload
             // Hint: Pack the `emitter`, `num`, and `isActive` values in memory for the data payload
             // Note: Ensure the data layout in memory matches the event parameter order
+            let ptr := mload(0x40)
+            let oldPtr := ptr
+            mstore(ptr,emitter)
+            mstore(add(ptr,0x20),num)
+            mstore(add(ptr,0x40),isActive)
+            mstore(0x40,add(ptr,0x60))
+            log1(ptr,0x60,0x532e3b2a35ca0879a4b08813e66d07f972db1900da196cbdc7e31d4d1bfc657f)
         }
     }
 }

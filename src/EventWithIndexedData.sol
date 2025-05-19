@@ -15,6 +15,9 @@ contract EventWithIndexedData {
             //  topic 1: The `emitter` address
             //  topic 2: The `id` bytes32 value
             // include the `number` field as the data payload
+            mstore(0x00,num)
+            log3(0x00,0x20,0x044d482819499c9d5fde1245ce63873b1259fc52fc78651ccdcdf7392637d374,emitter,id)
+            
         }
     }
 }
