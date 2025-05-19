@@ -9,6 +9,16 @@ contract WriteToDoubleMapping {
             // your code here
             // set the `value` for a `user` and a `token`
             // Hint: https://www.rareskills.io/post/solidity-dynamic
+
+            // Get storage slot for outer mapping
+            mstore(0x00, user)
+            mstore(0x20, balances.slot)
+            mstore(0x20, keccak256(0x00, 0x40))
+            // Get storage slot for nested mapping
+            mstore(0x00, token)
+            mstore(0x00, keccak256(0x00, 0x40))
+            // sstore value
+            sstore(mload(0x00), value)
         }
     }
 }
