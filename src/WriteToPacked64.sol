@@ -15,7 +15,6 @@ contract WriteToPacked64 {
 
             // 0x00-0x20 = (someValue3, someValue2, writeHere, someValue1)
             mstore(0x00, sload(someValue1.slot))
-            log0(0x00, 0x20)
 
             // Use 0x20-0x40 as scratch space
             // 0x20-0x30 = (v, someValue1)
