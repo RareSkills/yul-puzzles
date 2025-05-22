@@ -12,6 +12,19 @@ contract WriteToPacked64 {
             // your code here
             // change the value of `writeHere` storage variable to `v`
             // be careful not to alter the value of `someValue` variable
+
+            // 0x00-0x20 = (someValue3, someValue2, writeHere, someValue1)
+            mstore(0x00, sload(someValue1.slot))
+            log0(0x00, 0x20)
+
+            // Use 0x20-0x40 as scratch space
+            // 0x20-0x30 = (v, someValue1)
+            mstore(0x20, shl(192, v))
+            mstore(0x28, mload(0x18))
+
+            // 0x00-0x20 = (someValue3, someValue2, v, someValue1)
+            mstore(0x10, mload(0x20))
+            sstore(someValue1.slot, mload(0x00))
         }
     }
 }

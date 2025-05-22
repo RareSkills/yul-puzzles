@@ -14,5 +14,6 @@ contract WriteToPacked128Test is Test {
     function test_WriteToPacked128(uint128 v) public {
         c.main(v);
         assertEq(v, c.writeHere());
+        assertEq(7, c.someValue());
     }
 }

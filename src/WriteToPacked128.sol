@@ -12,6 +12,12 @@ contract WriteToPacked128 {
             // be careful not to alter the value of `someValue` variable
             // Hint: storage slots are arranged sequentially. Determine the storage slot of `writeHere`
             // and use `sstore` to modify only the `writeHere` variable.
+
+            // Actually Solidity stores in the storage slot like this (someValue, writeHere)
+            // and writeHere.slot = someValue.slot            
+            mstore(0x00, sload(writeHere.slot))
+            mstore(0x10, shl(128, v))
+            sstore(writeHere.slot, mload(0x00))
         }
     }
 }
