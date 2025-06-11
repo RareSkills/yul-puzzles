@@ -29,6 +29,15 @@ contract AnonymonusEventWithComplexData {
             //          - gender
             //          - name length
             //          - name
+
+            // 'person' should be a memory pointer to the `Person` struct.
+            mstore(0x00, 0x20) // 0x00 -> offset to 'name length pointer'
+            mstore(0x20, 0x60) // 0x20 -> offset to 'name length' 
+            mstore(0x40, mload(add(person, 0x20))) // 0x40 -> 'age'
+            mstore(0x60, mload(add(person, 0x40))) // 0x60 -> 'gender'
+            mstore(0x80, mload(add(person, 0x60))) // 0x80 -> 'name length'
+            mstore(0xa0, mload(add(person, 0x80))) // 0x80 -> 'name
+            log3(0x00, 0xC0, 0x00, emitter, id)
         }
     }
 }
